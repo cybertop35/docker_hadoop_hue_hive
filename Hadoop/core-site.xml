@@ -1,0 +1,11 @@
+<configuration>
+	
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://HOSTNAME:8020</value>
+	</property>
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/opt/data/hadoop/hadooptmpdata</value>
+	</property>
+</configuration>
